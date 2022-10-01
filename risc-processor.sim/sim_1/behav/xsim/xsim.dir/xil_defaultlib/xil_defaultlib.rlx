@@ -1,0 +1,11 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+D:/Akif/ITU/Semester 7/DSD/labs_vivado/risc-processor/risc-processor.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+D:/Akif/ITU/Semester 7/DSD/labs_vivado/risc-processor/risc-processor.srcs/sources_1/ip/blk_mem/sim/blk_mem.v,1664330841,verilog,,D:/Akif/ITU/Semester 7/DSD/labs_vivado/risc-processor/risc-processor.srcs/sources_1/new/ALU_Module.v,,blk_mem,,,,,,,,
+D:/Akif/ITU/Semester 7/DSD/labs_vivado/risc-processor/risc-processor.srcs/sources_1/new/ALU_Module.v,1664622588,verilog,,D:/Akif/ITU/Semester 7/DSD/labs_vivado/risc-processor/risc-processor.srcs/sources_1/new/mux1to8.v,,ALU_Module,,,,,,,,
+D:/Akif/ITU/Semester 7/DSD/labs_vivado/risc-processor/risc-processor.srcs/sources_1/new/mux1to8.v,1664615915,verilog,,D:/Akif/ITU/Semester 7/DSD/labs_vivado/risc-processor/risc-processor.srcs/sources_1/new/processor.v,,mux1to8,,,,,,,,
+D:/Akif/ITU/Semester 7/DSD/labs_vivado/risc-processor/risc-processor.srcs/sources_1/new/processor.v,1664622654,verilog,,D:/Akif/ITU/Semester 7/DSD/labs_vivado/risc-processor/risc-processor.srcs/sources_1/new/registers.v,,processor,,,,,,,,
+D:/Akif/ITU/Semester 7/DSD/labs_vivado/risc-processor/risc-processor.srcs/sources_1/new/processor_Test.v,1664627823,verilog,,,,processor_Test,,,,,,,,
+D:/Akif/ITU/Semester 7/DSD/labs_vivado/risc-processor/risc-processor.srcs/sources_1/new/registers.v,1664617996,verilog,,D:/Akif/ITU/Semester 7/DSD/labs_vivado/risc-processor/risc-processor.srcs/sources_1/new/processor_Test.v,,registers,,,,,,,,

@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Akif/ITU/Semester 7/DSD/labs_vivado/risc-processor/risc-processor.srcs/sources_1/ip/blk_mem/sim/blk_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Akif/ITU/Semester 7/DSD/labs_vivado/risc-processor/risc-processor.srcs/sources_1/new/ALU_Module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Module
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Akif/ITU/Semester 7/DSD/labs_vivado/risc-processor/risc-processor.srcs/sources_1/new/mux1to8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux1to8
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'Out0' is not allowed [D:/Akif/ITU/Semester 7/DSD/labs_vivado/risc-processor/risc-processor.srcs/sources_1/new/mux1to8.v:37]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Akif/ITU/Semester 7/DSD/labs_vivado/risc-processor/risc-processor.srcs/sources_1/new/processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Akif/ITU/Semester 7/DSD/labs_vivado/risc-processor/risc-processor.srcs/sources_1/new/registers.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module registers
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'R0' is not allowed [D:/Akif/ITU/Semester 7/DSD/labs_vivado/risc-processor/risc-processor.srcs/sources_1/new/registers.v:46]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Akif/ITU/Semester 7/DSD/labs_vivado/risc-processor/risc-processor.srcs/sources_1/new/processor_Test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor_Test

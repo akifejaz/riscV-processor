@@ -1,10 +1,10 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
--- Date        : Wed Sep 28 07:10:02 2022
+-- Date        : Tue Oct  4 20:16:00 2022
 -- Host        : DESKTOP-URNJ8LG running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub -rename_top blk_mem -prefix
---               blk_mem_ blk_mem_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub {D:/Akif/ITU/Semester
+--               7/DSD/riscV-processor/risc-processor.srcs/sources_1/ip/blk_mem/blk_mem_stub.vhdl}
 -- Design      : blk_mem
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7a100tcsg324-1

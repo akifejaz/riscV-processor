@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/Akif/ITU/Semester 7/DSD/labs_vivado/risc-processor/risc-processor.runs/blk_mem_synth_1'
+HD_PWD='D:/Akif/ITU/Semester 7/DSD/riscV-processor/risc-processor.runs/blk_mem_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

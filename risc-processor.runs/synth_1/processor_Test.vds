@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Oct  4 15:00:54 2022
+# Process ID: 8724
+# Current directory: D:/Akif/ITU/Semester 7/DSD/riscV-processor/risc-processor.runs/synth_1
+# Command line: vivado.exe -log processor_Test.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source processor_Test.tcl
+# Log file: D:/Akif/ITU/Semester 7/DSD/riscV-processor/risc-processor.runs/synth_1/processor_Test.vds
+# Journal file: D:/Akif/ITU/Semester 7/DSD/riscV-processor/risc-processor.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source processor_Test.tcl -notrace
+ERROR: [Vivado 12-172] File or Directory 'd:/Akif/ITU/Semester 7/Assignments/riscV-assign-no2/memory.coe' does not exist
+INFO: [Common 17-206] Exiting Vivado at Tue Oct  4 15:00:58 2022...

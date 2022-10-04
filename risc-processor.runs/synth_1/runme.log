@@ -1,0 +1,13 @@
+
+*** Running vivado
+    with args -log processor_Test.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source processor_Test.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source processor_Test.tcl -notrace
+ERROR: [Vivado 12-172] File or Directory 'd:/Akif/ITU/Semester 7/Assignments/riscV-assign-no2/memory.coe' does not exist
+INFO: [Common 17-206] Exiting Vivado at Tue Oct  4 15:00:58 2022...

@@ -1,10 +1,10 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
--- Date        : Wed Sep 28 07:10:02 2022
+-- Date        : Tue Oct  4 20:16:00 2022
 -- Host        : DESKTOP-URNJ8LG running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim -rename_top blk_mem -prefix
---               blk_mem_ blk_mem_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim {D:/Akif/ITU/Semester
+--               7/DSD/riscV-processor/risc-processor.srcs/sources_1/ip/blk_mem/blk_mem_sim_netlist.vhdl}
 -- Design      : blk_mem
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -22,6 +22,8 @@ entity blk_mem_blk_mem_gen_prim_wrapper_init is
     dina : in STD_LOGIC_VECTOR ( 15 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of blk_mem_blk_mem_gen_prim_wrapper_init : entity is "blk_mem_gen_prim_wrapper_init";
 end blk_mem_blk_mem_gen_prim_wrapper_init;
 
 architecture STRUCTURE of blk_mem_blk_mem_gen_prim_wrapper_init is
@@ -60,8 +62,8 @@ begin
       INITP_05 => X"0000000000000000000000000000000000000000000000000000000000000000",
       INITP_06 => X"0000000000000000000000000000000000000000000000000000000000000000",
       INITP_07 => X"0000000000000000000000000000000000000000000000000000000000000000",
-      INIT_00 => X"00000007000000060000000500000004000000030000000200000001000E0C0D",
-      INIT_01 => X"0000000F0000000E0000000D0000000C0000000B0000000A0000000900000008",
+      INIT_00 => X"0A000000050000040A000000050000030A000000050000020A00000005000001",
+      INIT_01 => X"0000000000000000000000000000000000000000000000000000000005000005",
       INIT_02 => X"0000000000000000000000000000000000000000000000000000000000000000",
       INIT_03 => X"0000000000000000000000000000000000000000000000000000000000000000",
       INIT_04 => X"0000000000000000000000000000000000000000000000000000000000000000",
@@ -220,6 +222,8 @@ entity blk_mem_blk_mem_gen_prim_width is
     dina : in STD_LOGIC_VECTOR ( 15 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of blk_mem_blk_mem_gen_prim_width : entity is "blk_mem_gen_prim_width";
 end blk_mem_blk_mem_gen_prim_width;
 
 architecture STRUCTURE of blk_mem_blk_mem_gen_prim_width is
@@ -245,6 +249,8 @@ entity blk_mem_blk_mem_gen_generic_cstr is
     dina : in STD_LOGIC_VECTOR ( 15 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of blk_mem_blk_mem_gen_generic_cstr : entity is "blk_mem_gen_generic_cstr";
 end blk_mem_blk_mem_gen_generic_cstr;
 
 architecture STRUCTURE of blk_mem_blk_mem_gen_generic_cstr is
@@ -270,6 +276,8 @@ entity blk_mem_blk_mem_gen_top is
     dina : in STD_LOGIC_VECTOR ( 15 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of blk_mem_blk_mem_gen_top : entity is "blk_mem_gen_top";
 end blk_mem_blk_mem_gen_top;
 
 architecture STRUCTURE of blk_mem_blk_mem_gen_top is
@@ -295,6 +303,8 @@ entity blk_mem_blk_mem_gen_v8_4_3_synth is
     dina : in STD_LOGIC_VECTOR ( 15 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of blk_mem_blk_mem_gen_v8_4_3_synth : entity is "blk_mem_gen_v8_4_3_synth";
 end blk_mem_blk_mem_gen_v8_4_3_synth;
 
 architecture STRUCTURE of blk_mem_blk_mem_gen_v8_4_3_synth is
@@ -528,6 +538,8 @@ entity blk_mem_blk_mem_gen_v8_4_3 is
   attribute C_WRITE_WIDTH_B of blk_mem_blk_mem_gen_v8_4_3 : entity is 16;
   attribute C_XDEVICEFAMILY : string;
   attribute C_XDEVICEFAMILY of blk_mem_blk_mem_gen_v8_4_3 : entity is "artix7";
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of blk_mem_blk_mem_gen_v8_4_3 : entity is "blk_mem_gen_v8_4_3";
   attribute downgradeipidentifiedwarnings : string;
   attribute downgradeipidentifiedwarnings of blk_mem_blk_mem_gen_v8_4_3 : entity is "yes";
 end blk_mem_blk_mem_gen_v8_4_3;
